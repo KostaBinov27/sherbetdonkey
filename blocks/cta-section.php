@@ -6,10 +6,10 @@ $right_button = get_field( 'right_button' ); ?>
 <div class="cta-wrap">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8">
+            <div class="col-lg-7">
                 <h4><?php echo $cta_title ?></h4>
             </div>
-            <div class="col-lg-4 m-auto">
+            <div class="col-lg-5 m-auto text-right">
                 <div class="row">
                     <div class="col-lg-6">
                         <a href="<?php echo $left_button['url'] ?>">

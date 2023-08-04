@@ -32,7 +32,7 @@
 
 .slides-wrapper{
     margin-top: -380px;
-    margin-left: 240px;
+    margin-left: 90px;
     overflow: hidden;
     .single-slide-project{
         padding-right: 15px;
@@ -93,5 +93,12 @@
         }
         text-align: right;
         margin-right: 160px;
+    }
+}
+
+.single-slide-project{
+    width: 479px !important;
+    img{
+        width: 100%;
     }
 }

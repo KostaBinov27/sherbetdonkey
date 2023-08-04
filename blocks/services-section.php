@@ -15,7 +15,7 @@ $image_left_side = get_field('image_left_side'); ?>
             </div>
         </div>
         <div class="row mt-100">
-            <div class="col-lg-2 mobile-imagefix">
+            <div class="col-lg-2 mobile-imagefix pl-0">
                 <img src="<?php echo $image_left_side['url']; ?>" class="img-fluid w-100">
             </div>
             <div class="col-lg-1"></div>
@@ -32,7 +32,7 @@ $image_left_side = get_field('image_left_side'); ?>
                             
                             if ($choose_image_side == 'left') { ?>
                                 <div class="row">
-                                    <div class="col-lg-5 mb-50">
+                                    <div class="col-lg-5 mb-50 pl-0">
                                         <img src="<?php echo $image_service['url']; ?>" class="img-fluid w-100">
                                     </div>
                                     <div class="col-lg-7 mb-50 text-service-wrap">
@@ -61,7 +61,7 @@ $image_left_side = get_field('image_left_side'); ?>
                                         </ul>
                                         <a href="<?php echo $button['url'] ?>"><button class="btn btn-third"><?php echo $button['title'] ?></button></a>
                                     </div>
-                                    <div class="col-lg-5 mb-50">
+                                    <div class="col-lg-5 mb-50 pr-0">
                                         <img src="<?php echo $image_service['url']; ?>" class="img-fluid w-100">
                                     </div>
                                 </div>

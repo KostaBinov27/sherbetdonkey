@@ -27,7 +27,7 @@ $right_button = get_field('right_button'); ?>
         <img src="wp-content/uploads/2023/08/Group-3427.svg" class="img-fluid arrow-down">
     </div>
 </div>
-<div class="container slides-wrapper">
+<div class="slides-wrapper">
         <?php 
             if( have_rows('slides') ): ?>
                 <div class="slides-projects">

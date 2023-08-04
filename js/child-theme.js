@@ -6751,6 +6751,7 @@
 	    slidesToScroll: 1,
 	    prevArrow: jQuery(".pp2"),
 	    nextArrow: jQuery(".nn2"),
+	    variableWidth: true,
 	    responsive: [{
 	      breakpoint: 1024,
 	      settings: {

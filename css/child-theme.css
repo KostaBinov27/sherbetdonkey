@@ -15063,6 +15063,18 @@ html {
   display: none !important;
 }
 
+.pl-0 {
+  padding-left: 0;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
 .has-blue-color,
 .has-blue-color:visited {
   color: #0d6efd;
@@ -15603,7 +15615,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 
 .slides-wrapper {
   margin-top: -380px;
-  margin-left: 240px;
+  margin-left: 90px;
   overflow: hidden;
 }
 .slides-wrapper .single-slide-project {
@@ -15667,6 +15679,13 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   cursor: pointer;
 }
 
+.single-slide-project {
+  width: 479px !important;
+}
+.single-slide-project img {
+  width: 100%;
+}
+
 .video-wrap-bg {
   margin-top: -190px;
   padding-top: 220px;
@@ -15706,6 +15725,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 .service-wrap-bg h2 span, .service-wrap-bg .h2 span {
   font-family: "Unbounded-Bold";
   color: #FADDB0;
+}
+.service-wrap-bg img {
+  border-radius: 20px;
 }
 .service-wrap-bg .text-service-wrap {
   background: #fff;
