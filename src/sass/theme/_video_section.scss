@@ -1,0 +1,22 @@
+.video-wrap-bg{
+    margin-top: -190px;
+    padding-top: 220px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: top !important;
+    padding-bottom: 200px;
+    h2{
+        font-family: "Unbounded-Regular";
+        font-size: 52px;
+        color: #F6872E;
+        span{
+            font-family: "Unbounded-Bold";
+            color: #0C8281;
+        }
+    }
+    iframe{
+        width: 100%;
+        height: 650px;
+        margin-top: 80px;
+    }
+}

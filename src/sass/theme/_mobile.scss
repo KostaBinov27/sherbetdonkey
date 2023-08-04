@@ -1,0 +1,98 @@
+@media only screen and (max-width: 768px) {
+    .contact-wrap {
+        display: none !important;
+    }
+    .logo-wrapc{
+        width: 50% !important;
+    }
+    .nav-link {
+        text-align: left;
+        margin-left: -122%;
+    }
+    #navbarNavDropdown{
+        margin-top: 20px;
+    }
+    .navbar-toggler{
+        background: #0b8281 !important;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .menuwrapc{
+        margin-right: 0 !important;
+        text-align: right !important;
+    }
+    .slides-wrapper{
+        margin-left: 0 !important;
+    }
+    .arrows{
+        margin-right: 0 !important;
+        text-align: center !important;
+    }
+    .hero-bg {
+        h1 {
+            font-size: 49px;
+        }
+    }
+    .video-wrap-bg {
+        .mt-100{
+            margin-top: 0 !important;
+        }
+        h2{
+            font-size: 36px;
+            margin-bottom: 0 !important;
+        }
+        .imagetitle{
+            margin-top: 30px;
+        }
+    }
+    .service-wrap-bg {
+        margin-top: -486px;
+        padding-top: 360px;
+    }
+    .mobile-imagefix{
+        display: none !important;
+    }
+    .cta-wrap{
+        h4{
+            margin-bottom: 40px;
+        }
+        button{
+            margin-bottom: 10px;
+        }
+    }
+    .oposite{
+        flex-direction: column-reverse;
+        img{
+            margin-bottom: 20px;
+        }
+        h2{
+            font-size: 42px;
+            margin-bottom: 170px;
+        }
+    }
+    .beyond-section-wrap .position-relative img {
+        bottom: 190px !important;
+        rotate: 90deg;
+    }    
+
+    .sq-1 {
+        border-bottom: 0 !important;
+        margin-top: 40px;
+    }
+    .sq-2{
+        border-bottom: 1px solid #0c373a !important;
+        border-left: 0 !important;
+    }
+    .sq-3{
+        border-bottom: 1px solid #0c373a !important;
+    }
+    .sq-4{
+        border-bottom: 1px solid #0c373a !important;
+        border-left: 0 !important;
+    }
+    .recent-projects-wrap{
+        h2{
+            font-size: 42px !important;
+        }
+    }
+}

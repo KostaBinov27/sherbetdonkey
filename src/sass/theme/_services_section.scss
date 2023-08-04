@@ -1,0 +1,45 @@
+.service-wrap-bg{
+    margin-top: -326px;
+    padding-top: 200px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: top !important;
+    padding-bottom: 100px;
+    h2{
+        color: #fff;
+        font-family: "Unbounded-Regular";
+        font-size: 52px;
+        span{
+            font-family: "Unbounded-Bold";
+            color: #FADDB0;
+        }
+    }
+    .text-service-wrap{
+        background: #fff;
+        border-radius: 20px;
+        padding: 40px;
+        h4{
+            font-family: "Unbounded-Regular";
+            font-size: 22px;
+            color: #000;
+            span{
+                color: #FF8725;
+            }
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            padding-left: 0;
+            flex-direction: row;
+            flex-wrap: wrap;
+            li{
+                margin-right: 10px;
+                background: #f0f0f0;
+                margin-bottom: 10px;
+                padding: 2px 10px;
+                font-size: 10px;
+                font-family: "Montserrat-Bold";
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+.beyond-section-wrap{
+    padding-top: 120px;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position: top !important;
+    padding-bottom: 300px;
+
+    h2{
+        color: #0C8281;
+        font-family: "Unbounded-Regular";
+        font-size: 52px;
+        span{
+            font-family: "Unbounded-Bold";
+            color: #0C373A;
+        }
+    }
+    .position-relative{
+        p{
+            color: #0C373A;
+            font-size: 18px;
+            font-family: "Montserrat";
+        }
+        img{
+            position: absolute;
+            left: 0;
+            bottom: 10px;
+        }
+    }
+
+    .sq-1{
+        padding: 50px 30px;
+        border-top: 1px solid #0C373A;
+        border-bottom: 1px solid  #0C373A;
+    }
+    .sq-2{
+        padding: 50px 30px;
+        border-top: 1px solid #0C373A;
+        border-bottom: 1px solid  #0C373A;
+        border-left: 1px solid  #0C373A;
+    }
+    .sq-3{
+        padding: 50px 30px;
+        border-bottom: 1px solid  #0C373A;
+    }
+    .sq-4{
+        padding: 50px 30px;
+        border-bottom: 1px solid  #0C373A;
+        border-left: 1px solid  #0C373A;
+    }
+
+    .title{
+        color: #0C373A;
+        font-family: "Montserrat-Bold";
+        font-size: 22px;
+    }
+    .stats{
+        color:#008080;
+        font-family: "Unbounded-Bold";
+        font-size: 69.46px;
+    }
+}

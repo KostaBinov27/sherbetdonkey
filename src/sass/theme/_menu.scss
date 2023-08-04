@@ -1,0 +1,53 @@
+#main-nav{
+    position: absolute;
+    width: 100%;
+    padding-top: 0;
+    z-index: 9999;
+    .btn-menu{
+        background-color: #0C8281;
+        font-family: "Poppins";
+        color: #fff;
+        padding: 12px 24px 12px 24px;
+        font-size: 14px;
+        border-radius: 50px;
+    }
+
+    .btn-menu:hover{
+        border-color: #0C8281;
+        color: #f09f28;
+    }
+    
+    .custom-navbar{
+        position: absolute;
+        width: 100%;
+        padding-top: 0;
+    }
+    .bg-menu{
+        background: #fff;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        padding: 10px 30px;
+    }
+    
+    .nav-link{
+        color: #000000;
+        font-family: "Montserrat";
+    }
+
+    .menu-item{
+        padding: 0 7px;
+    }
+    
+    .text-right{
+        text-align: right;
+    }
+    
+    .nav-link:focus, .nav-link:hover {
+        color: #f09f28;
+    }
+}
+
+#index-wrapper{
+    background-color: #111;
+    padding-top: 140px;
+}
