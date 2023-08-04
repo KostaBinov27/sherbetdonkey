@@ -15970,5 +15970,10 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
     margin-top: 30px;
   }
 }
+@media only screen and (max-width: 1366px) and (min-width: 1024px) {
+  .beyond-section-wrap .stats {
+    font-size: 45px;
+  }
+}
 
 /*# sourceMappingURL=child-theme.css.map */
