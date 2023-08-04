@@ -142,4 +142,19 @@
             font-size: 45px;
         }
     }
+    .hero-bg{
+        .position-relative{
+            .col-lg-2{
+                width: 20% !important;
+            }
+        }
+    }
+    .cta-wrap{
+        .col-lg-8{
+            width: 60% !important;
+        }
+        .col-lg-4{
+            width: 40% !important;
+        }
+    }
 }
