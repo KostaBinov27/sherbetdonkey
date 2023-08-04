@@ -15921,10 +15921,20 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   }
   .beyond-section-wrap {
     padding-bottom: 180px;
+    padding-top: 60px;
   }
   .beyond-section-wrap .position-relative img {
-    bottom: 190px !important;
+    bottom: -230px !important;
     rotate: 90deg;
+  }
+  .beyond-section-wrap .stats {
+    font-size: 59.46px;
+  }
+  .beyond-section-wrap h2, .beyond-section-wrap .h2 {
+    margin-bottom: -30px;
+  }
+  .beyond-section-wrap .position-relative {
+    margin-bottom: 200px;
   }
   .sq-1 {
     border-bottom: 0 !important;
