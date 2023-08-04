@@ -48,6 +48,14 @@
     .service-wrap-bg {
         margin-top: -486px;
         padding-top: 360px;
+        .mb-50{
+            margin-bottom: 20px !important;
+        }
+        .oposite{
+            img{
+                margin-bottom: 0 !important;
+            }
+        }
     }
     .mobile-imagefix{
         display: none !important;
@@ -70,29 +78,50 @@
             margin-bottom: 170px;
         }
     }
-    .beyond-section-wrap .position-relative img {
-        bottom: 190px !important;
-        rotate: 90deg;
-    }    
+    
+    .beyond-section-wrap{
+        padding-bottom: 180px;
+        .position-relative {
+            img {
+                bottom: 190px !important;
+                rotate: 90deg;
+            }
+        }    
+    }
 
     .sq-1 {
         border-bottom: 0 !important;
+        margin-top: 40px;
+        width: 90%;
+        margin: auto;
         margin-top: 40px;
     }
     .sq-2{
         border-bottom: 1px solid #0c373a !important;
         border-left: 0 !important;
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
     }
     .sq-3{
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
         border-bottom: 1px solid #0c373a !important;
     }
     .sq-4{
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
         border-bottom: 1px solid #0c373a !important;
         border-left: 0 !important;
     }
     .recent-projects-wrap{
         h2{
             font-size: 42px !important;
+        }
+        .mt-120 {
+            margin-top: 30px;
         }
     }
 }

@@ -15648,7 +15648,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   background: #f0f0f0;
   padding: 2px 10px;
   font-size: 10px;
-  font-family: "Montserrat";
+  font-family: "Montserrat-Bold";
 }
 .slides-wrapper .percente {
   font-weight: 900;
@@ -15894,6 +15894,12 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
     margin-top: -486px;
     padding-top: 360px;
   }
+  .service-wrap-bg .mb-50 {
+    margin-bottom: 20px !important;
+  }
+  .service-wrap-bg .oposite img {
+    margin-bottom: 0 !important;
+  }
   .mobile-imagefix {
     display: none !important;
   }
@@ -15913,6 +15919,9 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
     font-size: 42px;
     margin-bottom: 170px;
   }
+  .beyond-section-wrap {
+    padding-bottom: 180px;
+  }
   .beyond-section-wrap .position-relative img {
     bottom: 190px !important;
     rotate: 90deg;
@@ -15920,20 +15929,35 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
   .sq-1 {
     border-bottom: 0 !important;
     margin-top: 40px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
   }
   .sq-2 {
     border-bottom: 1px solid #0c373a !important;
     border-left: 0 !important;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
   }
   .sq-3 {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
     border-bottom: 1px solid #0c373a !important;
   }
   .sq-4 {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
     border-bottom: 1px solid #0c373a !important;
     border-left: 0 !important;
   }
   .recent-projects-wrap h2, .recent-projects-wrap .h2 {
     font-size: 42px !important;
+  }
+  .recent-projects-wrap .mt-120 {
+    margin-top: 30px;
   }
 }
 
